@@ -3,9 +3,8 @@ import { computed, ref } from "vue";
 
 import TheCameraRig from "./TheCameraRig.vue";
 import TheNavMesh from "./TheNavMesh.vue";
-import TheMainRoom from "./TheMainRoom.vue";
-import TheLifeCubeRoom from "./TheLifeCubeRoom.vue";
-import TheKitchen from "./TheKitchen.vue";
+import TheMenu from "./TheMenu.vue";
+import TheBell from "./TheBell.vue";
 
 import "../aframe/life-like-automaton.js";
 import "../aframe/teleport-camera-rig.js";
@@ -18,7 +17,8 @@ defineProps({
 });
 
 const allAssetsLoaded = ref(false);
-
+// const target = '#hand-right'
+const target = "";
 </script>
 
 <template>
@@ -38,8 +38,7 @@ const allAssetsLoaded = ref(false);
         Model source: https://sketchfab.com/3d-models/vr-gallery-1ac32ed62fdf424498acc146fad31f7e
         Model author: https://sketchfab.com/mvrc.art (Maxim Mavrichev)
         Model license: CC BY 4.0 ( https://creativecommons.org/licenses/by/4.0/ )
-      -->
-            <!-- <a-asset-item id="sound-1" response-type="arraybuffer" src="assets/sound1.mp3" preload="auto"></a-asset-item> -->
+    -->
             <a-asset-item id="kitchen" src="assets/kitchen.glb"></a-asset-item>
             <a-asset-item id="cuttingboard" src="assets/round_cuttingboard.glb"></a-asset-item>
             <a-asset-item id="pan" src="assets/pan.glb"></a-asset-item>
@@ -55,6 +54,8 @@ const allAssetsLoaded = ref(false);
             <a-asset-item id="tomato" src="assets/tomato.glb"></a-asset-item>
             <a-asset-item id="cheese" src="assets/cheese.glb"></a-asset-item>
             <a-asset-item id="oignon" src="assets/oignon.glb"></a-asset-item>
+            <a-asset-item id="menu" src="assets/menu.glb"></a-asset-item>
+            <a-asset-item id="bell" src="assets/bell.glb"></a-asset-item>
         </a-assets>
 
         <template v-if="allAssetsLoaded">
@@ -70,6 +71,7 @@ const allAssetsLoaded = ref(false);
                 rotation="0 90 0"
                 position="-0.092 0.43 -1.68"
                 scale="0.5 0.5 0.5"
+                clickable
             ></a-entity>
             <a-entity
                 gltf-model="#pan"
@@ -109,7 +111,7 @@ const allAssetsLoaded = ref(false);
                 position="0.74 0.938 0.979"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #bread; target: #hand-right;"
+                :grabbable="`modelName: #bread; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#steak"
@@ -117,7 +119,7 @@ const allAssetsLoaded = ref(false);
                 position="-1.3 0.968 -0.14"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #steak; target: #hand-right;"
+                :grabbable="`modelName: #steak; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#egg"
@@ -125,7 +127,7 @@ const allAssetsLoaded = ref(false);
                 position="-1.3 0.968 -0.48"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #egg; target: #hand-right;"
+                :grabbable="`modelName: #egg; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#salad"
@@ -133,7 +135,7 @@ const allAssetsLoaded = ref(false);
                 position="-0.97 0.920 1"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #salad; target: #hand-right;"
+                :grabbable="`modelName: #salad; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#tomato"
@@ -141,7 +143,7 @@ const allAssetsLoaded = ref(false);
                 position="-0.89 0.920 0.95"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #tomato; target: #hand-right;"
+                :grabbable="`modelName: #tomato; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#oignon"
@@ -149,7 +151,7 @@ const allAssetsLoaded = ref(false);
                 position="-0.56 0.920 0.95"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #oignon; target: #hand-right;"
+                :grabbable="`modelName: #oignon; target: ${target};`"
             ></a-entity>
             <a-entity
                 gltf-model="#cheese"
@@ -157,9 +159,10 @@ const allAssetsLoaded = ref(false);
                 position="-0.65 0.920 0.99"
                 scale="0.5 1 0.5"
                 clickable
-                grabbable="modelName: #cheese; target: #hand-right;"
+                :grabbable="`modelName: #cheese; target: ${target};`"
             ></a-entity>
-            <!-- grabbable="target: #hand-right;" -->
+            <TheMenu gltf="#menu" />
+            <TheBell gltf="#bell" />
         </template>
 
         <!-- <TheNavMesh /> -->
