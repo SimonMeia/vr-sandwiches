@@ -30,7 +30,7 @@ npm run dev
 npm run build
 ```
 ### Running the project on desktop vs in VR
-The project is optimized to be launched on a VR gear but it is also playable on desktop. To do so you have to go on the `src/components/TheScene` file and change the `target` variable :
+The project is optimized to be launched on a VR gear but it is also playable on desktop. To do so you have to go on the `src/components/TheScene.vue` file and change the `target` variable :
 ````javascript
 // To play in desktop mode :
 const target = "";
