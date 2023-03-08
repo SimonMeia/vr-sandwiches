@@ -63,6 +63,7 @@ const target = "";
             <a-asset-item id="restaurant" src="assets/restaurant.glb"></a-asset-item>
             <a-asset-item id="bin" src="assets/bin.glb"></a-asset-item>
             <a-asset-item id="cork-board" src="assets/cork_board.glb"></a-asset-item>
+            <a-asset-item id="bell-ring" response-type="arraybuffer" src="assets/bell_sound.wav" preload="auto"></a-asset-item>
         </a-assets>
 
         <template v-if="allAssetsLoaded">

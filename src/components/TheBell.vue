@@ -21,8 +21,10 @@ function ring(){
         scale="0.05 0.05 0.05"
         clickable
         @click="ring()"
+        sound="src: #bell-ring; autoplay: false; loop: false; on: click;"
     >
     </a-entity>
+
 
     <!-- <a-box
     :scale="`${scale} ${scale} ${scale}`"
