@@ -27,12 +27,6 @@
             <i>Included</i>
           </dt>
           <dt>
-            <a href="https://github.com/c-frame/aframe-extras" target="_blank">aframe-extras controls and animation-mixer</a>
-          </dt><dd>
-            <a href="https://github.com/c-frame/aframe-extras/blob/master/LICENSE" target="_blank">MIT License</a>
-          </dd>
-
-          <dt>
             <a href="https://github.com/jure/aframe-blink-controls/" target="_blank">aframe-blink-controls</a>
           </dt><dd>
             <a href="https://github.com/jure/aframe-blink-controls/blob/main/LICENSE" target="_blank">MIT License</a>
@@ -43,11 +37,58 @@
           </dt><dd>
             By Ada Rose Cannon under MIT License
           </dd>
-
           <dt>
-            <a href="https://sketchfab.com/3d-models/vr-gallery-1ac32ed62fdf424498acc146fad31f7e" target="_blank">VR Gallery</a>
+            <a href="https://skfb.ly/ozHET" target="_blank">Furniture collection</a>
           </dt><dd>
-            by <a href="https://sketchfab.com/mvrc.art" target="_blank">Maxim Mavrichev</a>
+            by <a href="https://sketchfab.com/charalamboscharalambous8" target="_blank">Harry Charalambous</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/ozG7Q" target="_blank">Sandwich assembly</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/charalamboscharalambous8" target="_blank">Harry Charalambous</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/opy8I" target="_blank">Food Equipment .Blend FREE Low Poly</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/LadyLionStudios" target="_blank">LordSamueliSolo</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/onIzV" target="_blank">Desk Bell</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/clintonabbott.art" target="_blank">ClintonAbbott.Art</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/6WRxV" target="_blank">Menu & Stand</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/libbycox" target="_blank">libbycox</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/6XQI7" target="_blank">Waste Bin</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/GreenLineStudio" target="_blank">Lasse Harm</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/6RKF8" target="_blank">Restaurant</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/uouoamy" target="_blank">Amy</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://skfb.ly/Nqwy" target="_blank">Cork Board</a>
+          </dt><dd>
+            by <a href="https://sketchfab.com/lianhaggis" target="_blank">lianhaggis</a>
+            under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+          </dd>
+          <dt>
+            <a href="https://freesound.org/people/InspectorJ/sounds/415510/" target="_blank">Bell, Counter, A.wav</a>
+          </dt><dd>
+            by <a href="http://www.jshaw.co.uk/" target="_blank">Inspector</a>
             under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           </dd>
         </dl>
