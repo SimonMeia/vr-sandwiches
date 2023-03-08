@@ -1,7 +1,6 @@
 <script setup>
   import { ref } from 'vue';
   import TheOnboarding from './components/TheOnboarding.vue';
-  import TheOverlay from './components/TheOverlay.vue';
   import TheScene from './components/TheScene.vue';
 
   const scale = ref(1);
@@ -16,8 +15,6 @@
   <!-- <TheOverlay v-model="scale" id="overlay" /> -->
 
   <TheScene
-    :scale="scale"
-    overlay-selector="#overlay"
     @loaded="loaded = true"
   />
 </template>

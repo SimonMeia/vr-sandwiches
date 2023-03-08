@@ -1,10 +1,6 @@
 <script setup>
-import "../aframe/emit-when-near.js";
-import "../aframe/event-set.js";
-import "../aframe/clickable.js";
 
-import { randomHsl } from "../utils/color.js";
-import { computed, ref } from "vue";
+import { computed } from "vue";
 import{sandwichToCook, newRecipe} from "../stores/sandwiches.js"
 
 newRecipe()
@@ -41,8 +37,6 @@ const menu = computed(() => {
                 color="black"
                 width="2.5"
             />
-            <!-- :text="`value: ${menu}; align:center; width: 2.5; color: black`" -->
-            <!-- <a-entity material="color: black" text="value: MENU"></a-entity> -->
         </a-plane>
     </a-entity>
 </template>

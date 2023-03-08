@@ -1,6 +1,4 @@
 <script setup>
-import "../aframe/emit-when-near.js";
-import "../aframe/event-set.js";
 import "../aframe/clickable.js";
 
 import { deleteSandwich } from "../stores/sandwiches.js";

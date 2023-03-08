@@ -18,9 +18,9 @@
 <template>
   <div id="onboarding" v-if="showOnboarding">
     <div>
-      <h1>A-Frame + Vite + Vue Boilerplate</h1>
+      <h1>VR Sandwiches</h1>
       <p v-if="!loaded">loading...</p>
-      <button v-if="loaded" @click="enterScene()">Enter scene</button>
+      <button v-if="loaded" @click="enterScene()">Play</button>
       <div class="licences">
         <dl>
           <dt>

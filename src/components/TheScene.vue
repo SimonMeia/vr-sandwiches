@@ -9,8 +9,6 @@ import TheKitchen from "./TheKitchen.vue";
 import TheBin from "./TheBin.vue";
 import TheBlackBoard from "./TheBlackBoard.vue";
 
-import "../aframe/life-like-automaton.js";
-import "../aframe/teleport-camera-rig.js";
 import "../aframe/grabbable.js";
 import "../aframe/clickable.js";
 
@@ -20,8 +18,8 @@ defineProps({
 });
 
 const allAssetsLoaded = ref(false);
-// const target = '#hand-right'
-const target = "";
+const target = '#hand-right'
+// const target = "";
 </script>
 
 <template>
@@ -36,12 +34,6 @@ const target = "";
     `"
     >
         <a-assets @loaded="allAssetsLoaded = true">
-            <!--
-        Title: VR Gallery
-        Model source: https://sketchfab.com/3d-models/vr-gallery-1ac32ed62fdf424498acc146fad31f7e
-        Model author: https://sketchfab.com/mvrc.art (Maxim Mavrichev)
-        Model license: CC BY 4.0 ( https://creativecommons.org/licenses/by/4.0/ )
-    -->
             <a-asset-item id="kitchen" src="assets/kitchen.glb"></a-asset-item>
             <a-asset-item id="cuttingboard" src="assets/round_cuttingboard.glb"></a-asset-item>
             <a-asset-item id="pan" src="assets/pan.glb"></a-asset-item>
@@ -69,12 +61,6 @@ const target = "";
         <template v-if="allAssetsLoaded">
             <!-- Setup 3D Scene -->
             <TheKitchen />
-            <!-- <a-entity
-                gltf-model="#kitchen"
-                rotation="0 90 0"
-                position="0 0 0"
-                scale="3 5 3"
-            ></a-entity> -->
             <a-entity
                 gltf-model="#restaurant"
                 rotation="0 -90 0"
