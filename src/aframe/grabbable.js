@@ -17,7 +17,7 @@ AFRAME.registerComponent("grabbable", {
         this.data.target.addEventListener("click", (evt) => this.ungrab(evt));
     },
     grab: function (evt) {
-        console.log("grab");
+        // console.log("grab");
         if (this.target === null) {
             let scene = this.el.sceneEl;
             let baseObject = this.el.cloneNode(true);
@@ -35,8 +35,8 @@ AFRAME.registerComponent("grabbable", {
         }
     },
     ungrab: function (evt) {
-        console.log("ungrab");
-        console.log(evt)
+        // console.log("ungrab");
+        // console.log(evt)
         if (this.target === null) return;
         this.target = null;
         if (

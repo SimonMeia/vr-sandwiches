@@ -5,6 +5,9 @@ import TheCameraRig from "./TheCameraRig.vue";
 import TheNavMesh from "./TheNavMesh.vue";
 import TheMenu from "./TheMenu.vue";
 import TheBell from "./TheBell.vue";
+import TheKitchen from "./TheKitchen.vue";
+import TheBin from "./TheBin.vue";
+import TheBlackBoard from "./TheBlackBoard.vue";
 
 import "../aframe/life-like-automaton.js";
 import "../aframe/teleport-camera-rig.js";
@@ -56,15 +59,26 @@ const target = "";
             <a-asset-item id="oignon" src="assets/oignon.glb"></a-asset-item>
             <a-asset-item id="menu" src="assets/menu.glb"></a-asset-item>
             <a-asset-item id="bell" src="assets/bell.glb"></a-asset-item>
+            <a-asset-item id="bell" src="assets/bell.glb"></a-asset-item>
+            <a-asset-item id="restaurant" src="assets/restaurant.glb"></a-asset-item>
+            <a-asset-item id="bin" src="assets/bin.glb"></a-asset-item>
+            <a-asset-item id="cork-board" src="assets/cork_board.glb"></a-asset-item>
         </a-assets>
 
         <template v-if="allAssetsLoaded">
             <!-- Setup 3D Scene -->
-            <a-entity
+            <TheKitchen />
+            <!-- <a-entity
                 gltf-model="#kitchen"
                 rotation="0 90 0"
                 position="0 0 0"
                 scale="3 5 3"
+            ></a-entity> -->
+            <a-entity
+                gltf-model="#restaurant"
+                rotation="0 -90 0"
+                position="2.790 0 -7.378"
+                scale="0.5 0.5 0.5"
             ></a-entity>
             <a-entity
                 gltf-model="#cuttingboard"
@@ -107,8 +121,8 @@ const target = "";
             <!-- Setup ingredients -->
             <a-entity
                 gltf-model="#bread"
-                rotation="0 -80 0"
-                position="0.74 0.938 0.979"
+                rotation="0 -30 0"
+                position="0.6 0.938 0.979"
                 scale="0.5 1 0.5"
                 clickable
                 :grabbable="`modelName: #bread; target: ${target};`"
@@ -161,8 +175,10 @@ const target = "";
                 clickable
                 :grabbable="`modelName: #cheese; target: ${target};`"
             ></a-entity>
-            <TheMenu gltf="#menu" />
-            <TheBell gltf="#bell" />
+            <TheMenu />
+            <TheBell />
+            <TheBin />
+            <TheBlackBoard />
         </template>
 
         <!-- <TheNavMesh /> -->

@@ -7,10 +7,6 @@ import { randomHsl } from "../utils/color.js";
 import { computed, ref } from "vue";
 import{sandwichToCook, newRecipe} from "../stores/sandwiches.js"
 
-defineProps({
-    gltf: String,
-});
-
 newRecipe()
 
 const menu = computed(() => {
@@ -25,7 +21,7 @@ const menu = computed(() => {
 
 <template>
     <a-entity
-        :gltf-model="gltf"
+        gltf-model="#menu"
         rotation="-90 0 0"
         position="-0.675 0.908 -1.623"
         scale="0.2 0.2 0.2"

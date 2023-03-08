@@ -7,10 +7,6 @@ import { randomHsl } from "../utils/color.js";
 import { computed, ref } from "vue";
 import { checkSandwich } from "../stores/sandwiches.js";
 
-defineProps({
-    gltf: String,
-});
-
 function ring(){
     console.log(checkSandwich())
 }
@@ -19,7 +15,7 @@ function ring(){
 
 <template>
     <a-entity
-        :gltf-model="gltf"
+        gltf-model="#bell"
         rotation="0 0 0"
         position="0.4 0.908 -1.623"
         scale="0.05 0.05 0.05"

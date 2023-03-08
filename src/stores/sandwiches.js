@@ -11,6 +11,8 @@ const ingredients = [
     { modelName: "cheese", displayName: "Fromage" },
 ];
 
+
+export const happyClients = ref(0)
 export const slices = ref(0);
 export const nextSliceHeight = computed(() => {
     return 0.93 + 0.015 * sandwich.value.length;
@@ -57,10 +59,12 @@ export function checkSandwich() {
     }
     deleteSandwich();
     newRecipe();
+    happyClients.value++
     return true;
 }
 
-function deleteSandwich() {
+export function deleteSandwich() {
+    console.log('delete sandwich')
     sandwich.value = [];
     document.querySelectorAll(".sandwich").forEach((slice) => {
         slice.remove();
