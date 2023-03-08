@@ -18,8 +18,8 @@ defineProps({
 });
 
 const allAssetsLoaded = ref(false);
-const target = '#hand-right'
-// const target = "";
+// const target = '#hand-right'
+const target = "";
 </script>
 
 <template>
