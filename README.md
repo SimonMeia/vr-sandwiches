@@ -1,6 +1,9 @@
 # VR Sandwiches
 
-VR Sandwiches is a VR game where you have to build your sandwich in a 3d kitchen following a given menu. The project has been realized in 3rd year of a Media Engeneering Bachelor. The project is optimized to be launched on a VR gear (Oculus Quest 2) but it is also playable on other VR devices and on desktop. The desktop version will have ingame issues such as the grabbing mechanics
+VR Sandwiches is a VR game where you have to build your sandwich in a 3d kitchen following a given menu. The project has been realized in 3rd year of a Media Engeneering Bachelor. The project is optimized to be launched on a VR gear (Oculus Quest 2) but it is also playable on other VR devices and on desktop. The desktop version will have ingame issues such as the grabbing mechanics.
+
+**Demo**: https://vr-sandwiches.meia.dev/
+
 
 ### Boilerplate and assets
 
@@ -19,8 +22,6 @@ External assets included in the project :
 - [Restaurant](https://skfb.ly/6RKF8) (Cretive Commons 4.0)
 - [Cork Board](https://skfb.ly/Nqwy) (Cretive Commons 4.0)
 - [Bell, Counter, A.wav](https://freesound.org/people/InspectorJ/sounds/415510/) (Cretive Commons 4.0)
-
-**Demo**: https://vr-**sandwiches**.meia.dev/
 
 Create a folder for your project and :
 
