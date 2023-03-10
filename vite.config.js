@@ -13,7 +13,7 @@ export default defineConfig(({command, mode}) => {
         },
       },
     })],
-    base: '/simon/',
+    // base: '/simon/',
   };
 
   return config;

@@ -1,13 +1,15 @@
-# a-frame-vite-vue-boilerplate
+# VR Sandwiches
 
-### A boilerplate for A-Frame 1.4, Vue 3.2 et Vite 4.1
+VR Sandwiches is a VR game where you have to build your sandwich in a 3d kitchen following a given menu. The project has been realized in 3rd year of a Media Engeneering Bachelor. The project is optimized to be launched on a VR gear (Oculus Quest 2) but it is also playable on other VR devices and on desktop. The desktop version will have ingame issues such as the grabbing mechanics
 
-Included in the boilerplate:
+### Boilerplate and assets
 
-- aframe-extras controls and animation-mixer: https://github.com/c-frame/aframe-extras  (MIT License)
+The project has been made on the top of my teacher's boilerplate : [A boilerplate for A-Frame 1.4, Vue 3.2 et Vite 4.1](https://github.com/Chabloz/a-frame-vite-vue-boilerplate)
+
+External assets included in the project :
+
 - aframe-blink-controls: https://github.com/jure/aframe-blink-controls (MIT License)
 - simple-navmesh-constraint: https://github.com/AdaRoseCannon/aframe-xr-boilerplate (MIT Licence)
-- 3D Room model: [VR Gallery](https://sketchfab.com/3d-models/vr-gallery-1ac32ed62fdf424498acc146fad31f7e) by [Maxim Mavrichev](https://sketchfab.com/mvrc.art) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 **Demo**: https://onivers.com/aframe-vue-boilerplate/
 
@@ -15,7 +17,7 @@ Create a folder for your project and :
 
 ### Clone (or fork, or download)
 ```sh
-git clone https://github.com/Chabloz/a-frame-vite-vue-boilerplate.git .
+git clone https://github.com/SimonMeia/vr-sandwiches .
 ```
 ### Install
 ```sh
