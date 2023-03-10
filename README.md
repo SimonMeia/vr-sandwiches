@@ -8,10 +8,19 @@ The project has been made on the top of my teacher's boilerplate : [A boilerplat
 
 External assets included in the project :
 
-- aframe-blink-controls: https://github.com/jure/aframe-blink-controls (MIT License)
-- simple-navmesh-constraint: https://github.com/AdaRoseCannon/aframe-xr-boilerplate (MIT Licence)
+- [aframe-blink-controls](https://github.com/jure/aframe-blink-controls) (MIT License)
+- [simple-navmesh-constraint](https://github.com/AdaRoseCannon/aframe-xr-boilerplate )(MIT Licence)
+- [Furniture collection](https://skfb.ly/ozHET) (Cretive Commons 4.0)
+- [Sandwich assembly](https://skfb.ly/ozG7Q) (Cretive Commons 4.0)
+- [Food Equipment .Blend FREE Low Poly](https://skfb.ly/opy8I) (Cretive Commons 4.0)
+- [Desk Bell](https://skfb.ly/onIzV) (Cretive Commons 4.0)
+- [Menu & Stand](https://skfb.ly/6WRxV) (Cretive Commons 4.0)
+- [Waste Bin](https://skfb.ly/6XQI7) (Cretive Commons 4.0)
+- [Restaurant](https://skfb.ly/6RKF8) (Cretive Commons 4.0)
+- [Cork Board](https://skfb.ly/Nqwy) (Cretive Commons 4.0)
+- [Bell, Counter, A.wav](https://freesound.org/people/InspectorJ/sounds/415510/) (Cretive Commons 4.0)
 
-**Demo**: https://onivers.com/aframe-vue-boilerplate/
+**Demo**: https://vr-**sandwiches**.meia.dev/
 
 Create a folder for your project and :
 
